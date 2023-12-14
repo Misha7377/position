@@ -25,12 +25,14 @@
         padding: 15px 15px 40px;
         position: relative;
     }
+    .feature-card-1 {
+        margin-bottom: 23px;
+    }
     .feature-card img{
         height: 402px;
         width: 100%;
         object-fit: cover;
         border-radius: 6px;
-        margin-bottom: 23px;
     }
     .feature-card-title{
         font-size: 18px;
@@ -43,7 +45,8 @@
         font-size: 20px;
         padding: 20px;
         position: absolute;
-        top: 33%;
+        top: 50%;
+        transform: translateY(-50%);
         left: 0;
         right: 0;
         overflow: hidden;
